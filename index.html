@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="checkout.html"> Checkout</a></li>
+                <li><a href="register.php">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Welcome to the Online Bookstore</h1>
+    <div id="book-list">
+        <div class="book">
+            <img src="book1.jpeg" alt="Book 1">
+            <h3>Book Title 1</h3>
+            <p>Price: $10.00</p>
+            <button onclick="addToCart(1, 'Book Title 1', 10)">Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="book2.jpeg" alt="Book 2">
+            <h3>Book Title 2</h3>
+            <p>Price: $15.00</p>
+            <button onclick="addToCart(2, 'Book Title 2', 15)">Add to Cart</button>
+        </div>
+        <div class="book">
+            <img src="book3.jpeg" alt="Book 3">
+            <h3>Book Title 3</h3>
+            <p>Price: $20.00</p>
+            <button onclick="addToCart(3, 'Book Title 3', 20)">Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Online Bookstore</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

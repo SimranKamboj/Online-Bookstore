@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#book-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.book {
+    text-align: center;
+    width: 30%;
+}
+.book img{
+    height: 300px;
+    width: 300px;
+}
+#login-form{
+    text-align: center;
+    
+}
+#register-form{
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+button{
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.10s;
+}
+.one{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
